@@ -6,17 +6,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="styles.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body>
+  <body class="h-screen w-full">
     <!-- nav  bar 3 sections -->
-    <nav>
+    <nav class="flex justify-between p-5">
       <div>
         <h1>LOGO</h1>
       </div>
 
       <div>
-        <ul>
+        <ul class="flex space-x-2">
           <li>Home</li>
           <li>Menu</li>
           <li>Blog</li>
@@ -32,9 +33,9 @@
     <!--//section ends-->
 
     <!-- title section -->
-    <div>
-      <h>F&F Mixology</h>
-      <p>
+    <div class="h-20 w-full mx-auto text-center">
+      <h class="text-6xl font-bold font-serif">F&F Mixology</h>
+      <p class="text-center text-sm">
         Anywhere. anytime. the best event in town. For those special moments
         with Friends & Family.
       </p>
@@ -44,30 +45,40 @@
     <!-- title image -->
     <div>
       <img
-        src="https://placehold.co/600x400/000000/FFFFFF/png"
+        src="https://placehold.co/1000x200/000000/FFFFFF/png"
         alt="a mahogany bartop with flowers"
       />
     </div>
     <!--//section ends-->
 
     <!-- 2 items side by side. description on left photos on right -->
-    <section>
+    <section class="flex justify-between p-8">
       <!-- description -->
-      <div>
-        <p>who we are</p>
-        <h1>The Best Drinks in Town</h1>
-        <button>Book a Package</button>
+      <div class="space-y-2">
+        <p class=>Who We Are</p>
+        <h1 class="text-3xl font-bold font-serif">The Best Drinks in Town</h1>
+        <button
+          class="button border-black border-solid border-2 p-2 rounded-lg bg-yellow-200 font-bold"
+        >
+          Book a Package
+        </button>
       </div>
       <!-- photos -->
-      <div>
-        <img
-          src="https://placehold.co/400x200/000000/FFFFFF/png"
+      <div class="space-x-24">
+        <div>        
+          <img class="rounded-full"
+          src="https://placehold.co/120x75/000000/FFFFFF/png"
           alt="fancy drink"
-        />
-        <img
-          src="https://placehold.co/400x200/000000/FFFFFF/png"
-          alt="martini"
-        />
+          />
+        </div>
+
+        <div>        
+          <img class="rounded-full"
+          src="https://placehold.co/120x75/000000/FFFFFF/png" 
+          alt="martini" 
+          />
+        </div>
+
       </div>
     </section>
     <!--//section ends-->
