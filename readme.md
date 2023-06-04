@@ -1,7 +1,7 @@
 #FNF Mixology
 
 ##Objective
-Create webpage that allows booking of special event services such as hostess, setup help & mixology services
+Create webpage that allows booking of staff for special event services such as hostess, setup help & mixology services.
 
 ##Styles
 Styled with Tailwind CSS
